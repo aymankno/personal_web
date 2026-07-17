@@ -1,28 +1,27 @@
 export const siteConfig = {
   name: "Ayman Aghel",
-  title: "CS Student",
+  title: "CS Student at ThinkNeuro",
   description: "Portfolio website of Ayman Aghel",
-  accentColor: "#1d4ed8",
+  accentColor: "#d83f1d",
   social: {
     email: "aymanaghel@gmail.com",
     linkedin: "https://linkedin.com/in/ayman-aghel-0239482b1/",
     github: "https://github.com/aymankno",
   },
   aboutMe:
-    "I am a computer science student interested in software engineering, machine learning, and  building useful tools.",
+    "I’m a developer and aviation enthusiast focused on the intersection of hardware and software; from computer vision systems in C++ and python to creating apps in SwiftUI. When I’m not doing that, I’m designing in Fusion360.",
   skills: ["Python", "Swift", "SwiftUI", "Fusion360", "C++", "Git"],
   projects: [
     {
       name: "BOND",
       description:
-        "A watchOS app",
-      link: "IN PROGRESS - N/A",
+        "A watchOS app for tennis players to improve their technique and prevent injuries, utilizing the Apple Watch's gyroscope and CoreMotion capabilities.",
       skills: ["Swift", "C++", "CoreMotion"],
     },
     {
       name: "Personal Website",
       description:
-        "A portfolio website customized from an Astro template",
+        "A portfolio website customized from an Astro template.",
       link: "https://github.com/aymankno/personal_web",
       skills: ["Astro", "HTML", "CSS"],
     },
@@ -39,7 +38,7 @@ export const siteConfig = {
       ],
     },
     {
-      company: "City of Knoxville's Mayor's Youth Council",
+      company: "City of Knoxville Mayor's Youth Council",
       title: "Frontend Developer",
       dateRange: "Aug 2026 - Present",
       bullets: [
